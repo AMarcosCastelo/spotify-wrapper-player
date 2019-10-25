@@ -2,56 +2,37 @@
 
 A player using the spotify-wrapper lib.
 
+## Browser Support
+
+This application relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API is supported in the following browsers.
+
+![Chrome](https://cloud.githubusercontent.com/assets/398893/3528328/23bc7bc4-078e-11e4-8752-ba2809bf5cce.png) | ![Firefox](https://cloud.githubusercontent.com/assets/398893/3528329/26283ab0-078e-11e4-84d4-db2cf1009953.png) | ![Opera](https://cloud.githubusercontent.com/assets/398893/3528330/27ec9fa8-078e-11e4-95cb-709fd11dac16.png) | ![Safari](https://cloud.githubusercontent.com/assets/398893/3528331/29df8618-078e-11e4-8e3e-ed8ac738693f.png) | ![IE](https://cloud.githubusercontent.com/assets/398893/3528325/20373e76-078e-11e4-8e3a-1cb86cf506f0.png) |
+--- | --- | --- | --- | --- |
+39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Installation
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
+```sh
+$ npm install
 ```
 
-### Installing
+This application depends on a token for its operation. Go to [Spotify Console Search](https://developer.spotify.com/console/get-search-item/) and get the OAuph Token with your spotify authentication.
 
-A step by step series of examples that tell you how to get a development env running
+[Spotify Console Search]('https://miro.medium.com/max/4956/1*Xy-g_lsYkJEYsXIP34K8eQ.png')
 
-Say what the step will be
+### ES6
 
+```js
+import SpotifyWrapper from 'ma-spotify-wrapper/lib/index';
+
+const spotify = new SpotifyWrapper({
+  token: 'YOUR_TOKEN_HERE'
+});
+
+export default spotify;
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
@@ -72,16 +53,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+| ![Antonio Marcos](https://avatars0.githubusercontent.com/u/43973049?s=460&v=4)|
+|:---------------------:|
+|  [Antonio Marcos](https://github.com/AMarcosCastelo)   |
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AMarcosCastelo/spotify-wrapper/graphs/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
