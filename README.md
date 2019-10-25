@@ -20,7 +20,7 @@ $ npm install
 
 This application depends on a token for its operation. Go to [Spotify Console Search](https://developer.spotify.com/console/get-search-item/) and get the OAuph Token with your spotify authentication.
 
-[Spotify Console Search]('https://miro.medium.com/max/4956/1*Xy-g_lsYkJEYsXIP34K8eQ.png')
+![Spotify Console Search](https://miro.medium.com/max/4956/1*Xy-g_lsYkJEYsXIP34K8eQ.png)
 
 ### ES6
 
@@ -33,16 +33,6 @@ const spotify = new SpotifyWrapper({
 
 export default spotify;
 ```
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -57,7 +47,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 |:---------------------:|
 |  [Antonio Marcos](https://github.com/AMarcosCastelo)   |
 
-See also the list of [contributors](https://github.com/AMarcosCastelo/spotify-wrapper/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AMarcosCastelo/spotify-wrapper-player/graphs/contributors) who participated in this project.
 
 ## License
 
